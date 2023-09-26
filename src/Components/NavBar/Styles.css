@@ -1,0 +1,80 @@
+:root{
+    --btn-clr: rgb(58, 143, 255);
+    --border-clr:rgba(100, 100, 100, 0.318);
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100vw;
+    position:absolute;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(67, 71, 85, 0.192) 0px 0px 0.25em, rgba(90, 124, 188, 0.027) 0px 0.25em 1em;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 32px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    font-size: 16px;
+    font-weight: 500;
+    margin:10px;
+    list-style: none;
+}
+
+#logout:hover{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.196);
+    padding: auto;
+}
+
+#logout-button{
+    background-color: red;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+    border: transparent;
+    border-radius: 50%;
+}
+
+#logout-button:hover{
+    background-color: rgba(255, 0, 0, 0.361);
+}
+
+#logout-button i {
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 500px ){
+
+    /* navbar{
+        flex-wrap: wrap;
+        padding: auto;
+    } */
+
+    h1{
+        margin: 0 auto;
+    }
+
+    ul{
+        margin: 0 auto;
+    }
+
+}

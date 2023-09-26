@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+#main {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(179, 177, 177, 0.29);
+    flex-direction: column;
+}
+
+.link-container{
+    margin: 20px;
+    background-color: white;
+    box-shadow: rgba(67, 71, 85, 0.192) 0px 0px 0.25em, rgba(90, 124, 188, 0.027) 0px 0.25em 1em;
+    width: 280px;
+    border-radius: 6px;
+    text-align: center;
+}
+

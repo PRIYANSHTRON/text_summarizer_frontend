@@ -1,0 +1,61 @@
+:root{
+    --btn-clr: rgb(58, 143, 255);
+    --border-clr:rgba(100, 100, 100, 0.318);
+}
+
+form {
+    text-align: center;
+    border: transparent;
+    border-radius: 6px;
+    box-shadow: rgba(67, 71, 85, 0.192) 0px 0px 0.25em, rgba(90, 124, 188, 0.027) 0px 0.25em 1em;
+    background-color: white;
+    opacity: 1;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 32px;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 6px;
+    border: transparent;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--border-clr);
+}
+
+button {
+    border: transparent;
+    background-color:var(--btn-clr);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+p{
+    margin: 15px;
+    font-weight: 500;
+}
+
+.error-msg{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.07);
+    padding: 8px;
+    margin: 10px;
+    border-radius: 6px;
+    border: transparent;
+}
