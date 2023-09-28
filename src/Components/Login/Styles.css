@@ -5,7 +5,7 @@
 
 
 
-form {
+#login-form{
     text-align: center;
     border: transparent;
     border-radius: 6px;
@@ -37,7 +37,13 @@ button {
     border: transparent;
     background-color: var(--btn-clr);
     color: white;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;}
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: all ease 0.4s;
+}
+
+button:active{
+    scale: 0.85;
+}
 
 input::placeholder {
     font-size: 16px;
@@ -59,7 +65,12 @@ p{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     border: transparent;
     overflow: hidden;
+    transition: all ease 0.4s;
 
+}
+
+#google-button:active{
+    scale: 0.85;
 }
 
 .error-msg{

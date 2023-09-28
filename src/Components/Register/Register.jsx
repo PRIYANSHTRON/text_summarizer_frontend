@@ -49,7 +49,7 @@ const Register = () => {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} id='registeration-form'>
                 <h1>Register</h1>
                 {error && <p className='error-msg'>{error}</p>}
                 <input type="email" placeholder='Email' onChange={(e) => { setEmail(e.target.value) }} /><br />

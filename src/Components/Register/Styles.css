@@ -3,7 +3,7 @@
     --border-clr:rgba(100, 100, 100, 0.318);
 }
 
-form {
+#registeration-form {
     text-align: center;
     border: transparent;
     border-radius: 6px;

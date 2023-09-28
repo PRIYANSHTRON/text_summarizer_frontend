@@ -27,20 +27,21 @@ textarea{
     border: 1px solid var(--border-clr);
     height: 250px;
     background-color: white;
-    padding:5px 10px;
     font-size: 14px;
     font-weight: 500;
     margin: 10px;
+    text-overflow: clip;
 }
+
 
 #txt-area{
     margin: 10px;
 }
 
-#txt-box div{
+#txt-box #inp-box,#out-box{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -63,8 +64,26 @@ label{
     margin-top: 20vh;
 }
 
-inp-box,out-box{
-    margin: 10px;
+#out-box{
+    margin-bottom: 70px;
+}
+
+#inp-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#content{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    word-wrap: normal;
+    text-align: justify;
+    overflow-y: scroll;
+    padding:5px 10px;
+
 }
 
 @media screen and (max-width:450px) {

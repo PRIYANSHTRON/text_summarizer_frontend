@@ -59,7 +59,7 @@ const LoginForm = () => {
 
     return (
         <>
-            <form onSubmit={handleSubmit_signin_with_email_and_password}>
+            <form onSubmit={handleSubmit_signin_with_email_and_password} id='login-form'>
                 <h1>Login</h1>
                 {error && <p className='error-msg'>{error}</p>}
                 <input type="email" placeholder='Email' required onChange={(e)=>{setEmail(e.target.value)}}/><br />

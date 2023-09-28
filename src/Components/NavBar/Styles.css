@@ -51,6 +51,11 @@ li{
     padding-bottom: 10px;
     border: transparent;
     border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+#logout-button:active{
+    scale: 0.85;
 }
 
 #logout-button:hover{
@@ -63,11 +68,6 @@ li{
 }
 
 @media screen and (max-width: 500px ){
-
-    /* navbar{
-        flex-wrap: wrap;
-        padding: auto;
-    } */
 
     h1{
         margin: 0 auto;
